@@ -13,6 +13,11 @@
 }
 
 @media (max-width: 768px) {
+  .filter {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
   .countries {
     gap: 3rem;
   }
