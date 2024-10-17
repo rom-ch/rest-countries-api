@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](/rest-countries-api.png?raw=true)
+![Screenshot](/public//rest-countries-api.png?raw=true)
 
 ### Links
 
