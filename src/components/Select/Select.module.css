@@ -1,0 +1,44 @@
+.container {
+  width: 200px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--bg-element);
+  color: var(--clr-text);
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  position: relative;
+  cursor: pointer;
+}
+
+.options {
+  position: absolute;
+  top: calc(100% + 0.2rem);
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+  z-index: 100;
+  background-color: inherit;
+  color: inherit;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
+.options.show {
+  display: block;
+}
+
+.option {
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+
+.option.highlighted {
+  background-color: lightblue;
+}

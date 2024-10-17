@@ -1,0 +1,28 @@
+.search {
+  background-color: var(--bg-element);
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search svg {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 1rem;
+  cursor: pointer;
+}
+
+.search input {
+  width: 100%;
+  background-color: inherit;
+  color: var(--clr-text);
+  border: none;
+  font-size: 14px;
+  padding-block: 1rem;
+  padding-inline: 3.5rem 1rem;
+}

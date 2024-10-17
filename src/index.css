@@ -1,0 +1,56 @@
+:root {
+  --bg-element: hsl(0, 0%, 100%);
+  --bg-app: hsl(0, 0%, 98%);
+  --clr-text: hsl(200, 15%, 8%);
+  --box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075);
+  --bg-input: hsl(0, 0%, 52%);
+}
+
+[data-theme="dark"] {
+  --bg-element: hsl(209, 23%, 22%);
+  --bg-app: hsl(207, 26%, 17%);
+  --clr-text: hsl(0, 0%, 100%);
+  --bg-input: hsl(209, 23%, 22%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}

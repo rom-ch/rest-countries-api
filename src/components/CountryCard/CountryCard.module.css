@@ -1,0 +1,46 @@
+.country {
+  max-width: 400px;
+  background-color: var(--bg-element);
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+}
+
+.flag {
+  width: 100%;
+  position: relative;
+  padding-bottom: calc(100% * 213 / 320);
+}
+
+.flag img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+}
+
+.infos {
+  padding: 1.5rem;
+  padding-bottom: 3rem;
+  color: var(--clr-text);
+}
+
+.infos h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.details p span {
+  font-weight: 600;
+}
